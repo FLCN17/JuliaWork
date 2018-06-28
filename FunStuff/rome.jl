@@ -1,31 +1,39 @@
-emperorList = [("First Century", [(("Augustus", "IMPERATOR CAESAR DIVI FILIVS AVGVSTVS"), ((-27, "BC"), (14, "AD")), ((-63, "BC"), (14, "AD")), "He died of natural causes."),
+romanRulerList = [("The Kings of Rome", [(("Romulus", "ROMVLVS REX"), ((-753, "BC"), (-716, "BC")), ((-772, "BC"), (-716, "BC")), "Unknown"),
+                                    (("Numa Pompilius", "NVMA POMPILIVS REX"), ((-716, "BC"), (-672, "BC")), ((-753, "BC"), (-672, "BC")), "Unknown"),
+                                    (("Tullus Hostilius", "TVLLVS HOSTILIVS REX"), ((-672, "BC"), (-642, "BC")), (("Unknown", "BC"), (-642, "BC")), "Unknown"),
+                                    (("Ancus Marcius", "ANCVS MARCIVS REX"), ((-642, "BC"), (-616, "BC")), ((-677, "BC"), (-616, "BC")), "Unknown"),
+                                    (("Lucius Tarquinius Priscus", "LVCIVS TARQVINIVS PRISCVS REX"), ((-616, "BC"), (-578, "BC")), (("Unknown", "BC"), (-578, "BC")), "Unknown"),
+                                    (("Servius Tullius", "SERVIVS TVLLIVS REX"), ((-578, "BC"), (-534, "BC")), (("Unknown", "BC"), (-534, "BC")), "Unknown"),
+                                    (("Lucius Tarquinius Superbus", "LVCIVS TARQVINIVS SVPERBVS REX"), ((-534, "BC"), (-509, "BC")), (("Unknown", "BC"), (-495, "BC")), "Unknown")]),
+
+            ("First Century - AD", [(("Augustus", "IMPERATOR CAESAR DIVI FILIVS AVGVSTVS"), ((-27, "BC"), (14, "AD")), ((-63, "BC"), (14, "AD")), "He died of natural causes."),
                                     (("Tiberius", "TIBERIVS CAESAR DIVI AVGVSTI FILIVS AVGVSTVS" ), ((14, "AD"), (37, "AD")), ((-42, "BC"), (37, "AD")), "He probably died natural causes, but quite possibly assassinated by Caligula,\n\t  or praetorian prefect Naevius Sutorius Macro."),
                                     (("Caligula", "GAIVS IVLIVS CAESAR AVGVSTVS GERMANICVS" ), ((37, "AD"), (41, "AD")), ((12, "AD"), (41, "AD")), "Assassinated in a conspiracy involving senators and Praetorian Guards."),
                                     (("Claudius", "TIBERIVS CLAVDIVS CAESAR AVGVSTVS GERMANICVS" ), ((41, "AD"), (54, "AD")), ((-10, "BC"), (54, "AD")), "Was probably poisoned by his wife Agrippina the Younger, in favour of her son\n\t  Nero, possibly natural causes."),
                                     (("Nero", "NERO CLAVDIVS CAESAR AVGVSTVS GERMANICVS" ), ((54, "AD"), (68, "AD")), ((37, "AD"), (68, "AD")), "He committed suicide after being declared a public enemy by the Senate."),
-                                    (("Galba", "SERVIVS SVLPICIVS GALBA CAESAR AVGVSTVS" ), ((68, "AD"), (69, "AD")), ((1, "AD"), (1, "AD")), ""),
-                                    (("Otho", "MARCVS SALVIVS OTHO CAESAR AVGVSTVS" ), ((69, "AD"), (69, "AD")), ((1, "AD"), (1, "AD")), ""),
-                                    (("Vitellius", "AVLVS VITELLIVS GERMANICVS AVGVSTVS" ), ((69, "AD"), (69, "AD")), ((1, "AD"), (1, "AD")), ""),
-                                    (("Vespasian", "TITVS FLAVIVS CAESAR VESPASIANVS AVGVSTVS" ), ((69, "AD"), (79, "AD")), ((1, "AD"), (1, "AD")), ""),
-                                    (("Titus", "TITVS FLAVIVS CAESAR VESPASIANVS AVGVSTVS" ), ((79, "AD"), (81, "AD")), ((1, "AD"), (1, "AD")), ""),
-                                    (("Domitian", "TITVS FLAVIVS CAESAR DOMITIANVS AVGVSTVS" ), ((81, "AD"), (96, "AD")), ((1, "AD"), (1, "AD")), ""),
-                                    (("Nerva", "MARCVS COCCEIVS NERVA CAESAR AVGVSTVS" ), ((96, "AD"), (98, "AD")), ((1, "AD"), (1, "AD")), ""),
-                                    (("Trajan", "CAESAR MARCVS VLPIVS NERVA TRAIANVS AVGVSTVS" ), ((98, "AD"), (117, "AD")), ((1, "AD"), (1, "AD")), "")]),
+                                    (("Galba", "SERVIVS SVLPICIVS GALBA CAESAR AVGVSTVS" ), ((68, "AD"), (69, "AD")), ((-3, "BC"), (69, "AD")), "Murdered by Praetorian Guard in coup led by Otho."),
+                                    (("Otho", "MARCVS SALVIVS OTHO CAESAR AVGVSTVS" ), ((69, "AD"), (69, "AD")), ((32, "AD"), (69, "AD")), "Committed suicide after losing Battle of Bedriacum to Vitellius."),
+                                    (("Vitellius", "AVLVS VITELLIVS GERMANICVS AVGVSTVS" ), ((69, "AD"), (69, "AD")), ((15, "AD"), (69, "AD")), "Was murdered by Vespasian's troops."),
+                                    (("Vespasian", "TITVS FLAVIVS CAESAR VESPASIANVS AVGVSTVS" ), ((69, "AD"), (79, "AD")), ((9, "AD"), (79, "AD")), "He died of Natural causes."),
+                                    (("Titus", "TITVS FLAVIVS CAESAR VESPASIANVS AVGVSTVS" ), ((79, "AD"), (81, "AD")), ((39, "AD"), (81, "AD")), "He died of Natural causes."),
+                                    (("Domitian", "TITVS FLAVIVS CAESAR DOMITIANVS AVGVSTVS" ), ((81, "AD"), (96, "AD")), ((51, "AD"), (96, "AD")), "Assassinated by court officials."),
+                                    (("Nerva", "MARCVS COCCEIVS NERVA CAESAR AVGVSTVS" ), ((96, "AD"), (98, "AD")), ((30, "AD"), (98, "AD")), "He died of Natural causes."),
+                                    (("Trajan", "CAESAR MARCVS VLPIVS NERVA TRAIANVS AVGVSTVS" ), ((98, "AD"), (117, "AD")), ((53, "AD"), (117, "AD")), "He died of Natural Causes.")]),
 
-               ("Second Century", [(("Trajan", "CAESAR MARCVS VLPIVS NERVA TRAIANVS AVGVSTVS" ), ((98, "AD"), (117, "AD")), ((1, "AD"), (1, "AD")), ""),
-                                    (("Hadrian", "CAESAR PVBLIVS AELIVS TRAIANVS HADRIANVS AVGVSTVS" ), ((117, "AD"), (138, "AD")), ((1, "AD"), (1, "AD")), ""),
-                                    (("Antoninus Pius", "CAESAR TITVS AELIVS HADRIANVS ANTONINVS AVGVSTVS PIVS" ), ((138, "AD"), (161, "AD")), ((1, "AD"), (1, "AD")), ""),
-                                    (("Marcus Aurelius", "CAESAR LVCIVS AVRELIVS VERVS AVGVSTVS" ), ((161, "AD"), (180, "AD")), ((1, "AD"), (1, "AD")), ""),
-                                    (("Lucius Verus", "CAESAR MARCVS AVRELIVS ANTONINVS AVGVSTVS" ), ((161, "AD"), (169, "AD")), ((1, "AD"), (1, "AD")), ""),
-                                    (("Commodus", "CAESAR MARCVS AVRELIVS COMMODVS ANTONINVS AVGVSTVS" ), ((177, "AD"), (192, "AD")), ((1, "AD"), (1, "AD")), ""),
-                                    (("Pertinax", "CAESAR PVBLIVS HELVIVS PERTINAX AVGVSTVS" ), ((193, "AD"), (193, "AD")), ((1, "AD"), (1, "AD")), ""),
-                                    (("Didius Julianus", "CAESAR MARCVS DIDIVS SEVERVS IVLIANVS AVGVSTVS" ), ((193, "AD"), (193, "AD")), ((1, "AD"), (1, "AD")), ""),
-                                    (("Septimius Severus", "CAESAR LVCIVS SEPTIMIVS SEVERVS PERTINAX AVGVSTVS" ), ((193, "AD"), (211, "AD")), ((1, "AD"), (1, "AD")), ""),
-                                    (("Caracalla", "CAESAR MARCVS AVRELIVS SEVERVS ANTONINVS PIVS AVGVSTVS" ), ((198, "AD"), (217, "AD")), ((1, "AD"), (1, "AD")), "")]),
+               ("Second Century - AD", [(("Trajan", "CAESAR MARCVS VLPIVS NERVA TRAIANVS AVGVSTVS" ), ((98, "AD"), (117, "AD")), ((53, "AD"), (117, "AD")), "He died of Natural Causes."),
+                                    (("Hadrian", "CAESAR PVBLIVS AELIVS TRAIANVS HADRIANVS AVGVSTVS" ), ((117, "AD"), (138, "AD")), ((76, "AD"), (138, "AD")), "He died of Natural Causes."),
+                                    (("Antoninus Pius", "CAESAR TITVS AELIVS HADRIANVS ANTONINVS AVGVSTVS PIVS" ), ((138, "AD"), (161, "AD")), ((86, "AD"), (161, "AD")), "He died of Natural Causes."),
+                                    (("Marcus Aurelius", "CAESAR LVCIVS AVRELIVS VERVS AVGVSTVS" ), ((161, "AD"), (180, "AD")), ((121, "AD"), (180, "AD")), "He died of Natural Causes."),
+                                    (("Lucius Verus", "CAESAR MARCVS AVRELIVS ANTONINVS AVGVSTVS" ), ((161, "AD"), (169, "AD")), ((130, "AD"), (169, "AD")), "He died in the Antonine Plague."),
+                                    (("Commodus", "CAESAR MARCVS AVRELIVS COMMODVS ANTONINVS AVGVSTVS" ), ((177, "AD"), (192, "AD")), ((161, "AD"), (192, "AD")), "Assassinated in his own palace, strangled to death in the bath."),
+                                    (("Pertinax", "CAESAR PVBLIVS HELVIVS PERTINAX AVGVSTVS" ), ((193, "AD"), (193, "AD")), ((126, "AD"), (193, "AD")), "Was murdered by the Praetorian Guard."),
+                                    (("Didius Julianus", "CAESAR MARCVS DIDIVS SEVERVS IVLIANVS AVGVSTVS" ), ((193, "AD"), (193, "AD")), ((133, "AD"), (193, "AD")), "Executed on orders of the Senate."),
+                                    (("Septimius Severus", "CAESAR LVCIVS SEPTIMIVS SEVERVS PERTINAX AVGVSTVS" ), ((193, "AD"), (211, "AD")), ((145, "AD"), (211, "AD")), "He died of Natural Causes."),
+                                    (("Caracalla", "CAESAR MARCVS AVRELIVS SEVERVS ANTONINVS PIVS AVGVSTVS" ), ((198, "AD"), (217, "AD")), ((188, "AD"), (217, "AD")), "Murdered by a soldier as part of a conspiracy involving Macrinus")]),
 
-                ("Third Century", [(("Septimius Severus", "CAESAR LVCIVS SEPTIMIVS SEVERVS PERTINAX AVGVSTVS" ), ((193, "AD"), (211, "AD")), ((1, "AD"), (1, "AD")), ""),
-                                    (("Caracalla", "CAESAR MARCVS AVRELIVS SEVERVS ANTONINVS PIVS AVGVSTVS" ), ((198, "AD"), (217, "AD")), ((1, "AD"), (1, "AD")), ""),
-                                    (("Geta", "CAESAR PVBLIVS SEPTIMIVS GETA AVGVSTUS" ), ((209, "AD"), (211, "AD")), ((1, "AD"), (1, "AD")), ""),
+                ("Third Century - AD", [(("Septimius Severus", "CAESAR LVCIVS SEPTIMIVS SEVERVS PERTINAX AVGVSTVS" ), ((193, "AD"), (211, "AD")), ((145, "AD"), (211, "AD")), "He died of Natural Causes."),
+                                    (("Caracalla", "CAESAR MARCVS AVRELIVS SEVERVS ANTONINVS PIVS AVGVSTVS" ), ((198, "AD"), (217, "AD")), ((188, "AD"), (217, "AD")), "Murdered by a soldier as part of a conspiracy involving Macrinus"),
+                                    (("Geta", "CAESAR PVBLIVS SEPTIMIVS GETA AVGVSTUS" ), ((209, "AD"), (211, "AD")), ((189, "AD"), (211, "AD")), "Murdered on the orders of Caracalla"),
                                     (("Macrinus", "CAESAR MARCVS OPELLIVS SEVERVS MACRINVS AVGVSTVS PIVS FELIX" ), ((217, "AD"), (218, "AD")), ((1, "AD"), (1, "AD")), ""),
                                     (("Elgabalus", "MARCVS AVRELIVS ANTONINVS AVGVSTVS" ), ((218, "AD"), (222, "AD")), ((1, "AD"), (1, "AD")), ""),
                                     (("Severus Alexander", "CAESAR MARCVS AVRELIVS SEVERVS ALEXANDER AVGVSTVS" ), ((222, "AD"), (235, "AD")), ((1, "AD"), (1, "AD")), ""),
@@ -54,7 +62,7 @@ emperorList = [("First Century", [(("Augustus", "IMPERATOR CAESAR DIVI FILIVS AV
                                     (("Diocletian", "CAESAR GAIVS AVRELIVS VALERIVS DIOCLETIANVS AVGVSTVS" ), ((284, "AD"), (305, "AD")), ((1, "AD"), (1, "AD")), ""),
                                     (("Maximian", "CAESAR MARCVS AVRELIVS VALERIVS MAXIMIANVS AVGVSTVS" ), ((286, "AD"), (305, "AD")), ((1, "AD"), (1, "AD")), "")]),
 
-               ("Fourth Century", [(("Diocletian", "CAESAR GAIVS AVRELIVS VALERIVS DIOCLETIANVS AVGVSTVS" ), ((284, "AD"), (305, "AD")), ((1, "AD"), (1, "AD")), ""),
+               ("Fourth Century - AD", [(("Diocletian", "CAESAR GAIVS AVRELIVS VALERIVS DIOCLETIANVS AVGVSTVS" ), ((284, "AD"), (305, "AD")), ((1, "AD"), (1, "AD")), ""),
                                     (("Maximian", "CAESAR MARCVS AVRELIVS VALERIVS MAXIMIANVS AVGVSTVS" ), ((286, "AD"), (305, "AD")), ((1, "AD"), (1, "AD")), ""),
                                     (("Galerius", "CAESAR GAIVS GALERIVS VALERIVS MAXIMIANVS AVGVSTVS" ), ((305, "AD"), (311, "AD")), ((1, "AD"), (1, "AD")), ""),
                                     (("Constantius I", "CAESAR MARCVS FLAVIVS VALERIVS CONSTANTIVS AVGVSTVS" ), ((305, "AD"), (306, "AD")), ((1, "AD"), (1, "AD")), ""),
@@ -77,7 +85,7 @@ emperorList = [("First Century", [(("Augustus", "IMPERATOR CAESAR DIVI FILIVS AV
                                     (("Magnus Maximus", "FLAVIVS MAGNVS MAXIMVS AVGVSTVS" ), ((383, "AD"), (388, "AD")), ((1, "AD"), (1, "AD")), ""),
                                     (("Honorius", "FLAVIVS HONORIVS AVGVSTVS" ), ((393, "AD"), (423, "AD")), ((1, "AD"), (1, "AD")), "")]),
 
-                 ("Fifth Century", [(("Honorius", "FLAVIVS HONORIVS AVGVSTVS" ), ((393, "AD"), (423, "AD")), ((1, "AD"), (1, "AD")), ""),
+                 ("Fifth Century - AD", [(("Honorius", "FLAVIVS HONORIVS AVGVSTVS" ), ((393, "AD"), (423, "AD")), ((1, "AD"), (1, "AD")), ""),
                                     (("Constantine III", "FLAVIVS CLAVDIVS CONSTANTINVS AVGVSTVS" ), ((407, "AD"), (411, "AD")), ((1, "AD"), (1, "AD")), ""),
                                     (("Constantius III", "FLAVIVS CONSTANTIVS AVGVSTVS" ), ((421, "AD"), (421, "AD")), ((1, "AD"), (1, "AD")), ""),
                                     (("Joannes", "IOHANNES AVGVSTVS" ), ((423, "AD"), (425, "AD")), ((1, "AD"), (1, "AD")), ""),
@@ -90,16 +98,19 @@ emperorList = [("First Century", [(("Augustus", "IMPERATOR CAESAR DIVI FILIVS AV
                                     (("Olybrius", "FLAVIVS ANICIVS OLYBRIVS AVGVSTVS" ), ((472, "AD"), (472, "AD")), ((1, "AD"), (1, "AD")), ""),
                                     (("Glycerius", "FLAVIVS GLYCERIVS AVGVSTVS" ), ((473, "AD"), (474, "AD")), ((1, "AD"), (1, "AD")), ""),
                                     (("Julius Nepos", "FLAVIVS IVLIVS NEPOS AVGVSTVS" ), ((474, "AD"), (480, "AD")), ((1, "AD"), (1, "AD")), ""),
-                                    (("Romulus Augustulus", "ROMVLVS AVGVSTVS" ), ((475, "AD"), (476, "AD")), ((460, "AD"), (495, "AD")), "Regarded as emperor more from historical convention than accuracy, his rule\n\t  never extended beyond portions of the Italian peninsula and was not recognized\n\t  by Eastern Emperor Zeno. Deposed by Odoacer, who then ruled in the name\n\t  of Julius Nepos until the latter's death in 480, which formally ended\n\t  the separate western empire; most likely lived out his life\n\t  on a private villain obscurity.")])]
+                                    (("Romulus Augustulus", "ROMVLVS AVGVSTVS" ), ((475, "AD"), (476, "AD")), ((460, "AD"), (500, "AD")), "Regarded as emperor more from historical convention than accuracy, his rule\n\t  never extended beyond portions of the Italian peninsula and was not recognized\n\t  by Eastern Emperor Zeno. Deposed by Odoacer, who then ruled in the name\n\t  of Julius Nepos until the latter's death in 480, which formally ended\n\t  the separate western empire; most likely lived out his life\n\t  on a private villa in obscurity.")])]
 function output_reign()
-      for century in emperorList
+      for century in romanRulerList[2:end]
+            highestReign = 0; longestRuler = ""; averageReign = 0; totalRuler = 0
             l = length(century[2])
-            @printf("In the %s, there were %d emperors over %d years.\n", century[1], l, century[2][end][2][2][1]-century[2][1][2][1][1])
+            @printf("In the %s, there were %d emperors.\n", century[1], l)
             for emperor in century[2]
-                  reign = (emperor[2][2][1] - emperor[2][1][1])
-                  @printf("\tEmperor %s, or %s, who ruled from %d %s to %d %s, %s%s year%s.\n", emperor[1][1], emperor[1][2], (emperor[2][1][1]>0?emperor[2][1][1]:-emperor[2][1][1]), emperor[2][1][2], emperor[2][2][1], emperor[2][2][2], (reign>3 ? "" : (reign!=0?"only " : "")), (reign==0 ? "less then 1" : string(reign)), (reign<=1 ? "" : "s"))
-                  @printf("\t  He was born in %d %s, and died in %d %s at the age of %d.\n\t  %s\n", (emperor[3][1][1]>0?emperor[3][1][1]:-emperor[3][1][1]), emperor[3][1][2], emperor[3][2][1], emperor[3][2][2], emperor[3][2][1] - emperor[3][1][1], emperor[4])
+                  reign = (emperor[2][2][1] - emperor[2][1][1]); averageReign += reign;
+                  longestRuler = (reign>highestReign?emperor[1][1]:longestRuler); highestReign = (reign>highestReign?reign:highestReign)
+                  @printf("\tEmperor %s, or %s, \n\t  Who ruled from %d %s to %d %s, %s%s year%s.\n", emperor[1][1], emperor[1][2], (emperor[2][1][1]>0?emperor[2][1][1]:-emperor[2][1][1]), emperor[2][1][2], emperor[2][2][1], emperor[2][2][2], (reign>3 ? "" : (reign!=0?"only " : "")), (reign==0 ? "less then 1" : string(reign)), (reign<=1 ? "" : "s"))
+                  @printf("\t  He was born in %d %s, and died in %d %s at the age of %d.\n\t  %s\n\n", (emperor[3][1][1]>0?emperor[3][1][1]:-emperor[3][1][1]), emperor[3][1][2], emperor[3][2][1], emperor[3][2][2], emperor[3][2][1] - emperor[3][1][1], emperor[4])
             end
+            @printf("\tThe average reign length was %.0f years.\n\tEmperor %s had the longest rule of %s years.\n", div(averageReign,l), longestRuler, highestReign)
             println()
       end
 end
